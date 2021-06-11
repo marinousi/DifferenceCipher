@@ -1,0 +1,5 @@
+# DIFFERENT CIPHER
+
+First of all, I need to make an array with the size of the string. If there are 8 letters in the string, then the array needs to have 8 spaces, one for each encrypted number. Starting the cryptography by putting the value of the first position of the array equals to the value of the first position of the string, according to the ascii table. I will then walk through the array, position to position to encrypt the letters as it was asked — getting the value of the current character and then subtracting from the past one. 
+
+The decrypting function needs to cast the string to char and then put it in an array, so later in the code I can add the new character to the string. For that, I make a for to also walk through the array, undo the encryption by summing the current value to the previous one and then do what I said before — add new character to string.
